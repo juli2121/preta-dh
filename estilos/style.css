@@ -1,0 +1,79 @@
+/* GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* fondo */
+  background-color: lightgray;
+  /* texto */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.titulo {
+  color: violet;
+  font-size: 1.5em;
+  }
+
+.contenedor-titulo {
+  padding: 8px 0;
+  }
+
+.margen-izq {
+  margin-left: 20px;
+  }
+
+.borde-titulo {
+  border-top: solid 2px gray;
+  border-bottom: solid 2px gray;
+}
+
+.separador {
+  display: block;
+  height: 20px;
+  }
+
+.separador-s {
+  display: block;
+  height: 12px;
+  }
+
+.separador-xs {
+  display: block;
+  }
+
+/* REGISTRO - LOGIN*/
+.input-blanco {
+  background-color: white;
+  }
+
+.padding-eje-y {
+  padding: 20px 0;
+  }
+
+.boton {
+  text-align: center;
+  }
+
+.boton-gris {
+  border: solid 1px black;
+  color: black;
+  padding: 5px 32px;
+  text-align: center;
+  display: inline-block;
+  }
+
+.boton-negro {
+
+  }
+
+#enlace-olvide {
+  font-size: 0.8em;
+  text-align: center;
+  }
